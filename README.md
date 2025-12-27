@@ -17,7 +17,7 @@ and track progress through structured workflows.
 - Maintenance request creation and tracking
 - Preventive and corrective maintenance
 - Task assignment and status tracking
-- Kanban and calendar views for maintenance tasks
+
 
  🛠 Tech Stack
 - HTML
@@ -43,8 +43,6 @@ my_floder/
 
 
  🚀 Future Enhancements
-- Automated maintenance reminders and alerts  
-- Maintenance cost tracking and analytics  
 - Equipment performance dashboard  
 - Role-based access control for users
 
