@@ -21,7 +21,6 @@ and track progress through structured workflows.
 
  🛠 Tech Stack
 - HTML
-- Python
 - Javascript
 - css
 
