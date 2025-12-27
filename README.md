@@ -20,10 +20,10 @@ and track progress through structured workflows.
 - Kanban and calendar views for maintenance tasks
 
 ## 🛠 Tech Stack
-- Odoo ERP
+- HTML
 - Python
-- XML
-- PostgreSQL
+- Javascript
+- css
 ## 🧱 Module Structure
 odoo_addons/gearguard/
 ├── manifest.py
