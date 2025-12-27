@@ -29,8 +29,6 @@ and track progress through structured workflows.
 my_floder/
 ├── Problem_statement.md
 ├── solution.md
-├── hackethon.gitkeep
-│
 ├── index1.html
 ├── style.css
 ├── script.js
