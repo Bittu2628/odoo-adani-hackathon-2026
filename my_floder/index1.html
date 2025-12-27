@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>GearGuard – Maintenance Tracker</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<h1>🔧 GearGuard – Maintenance Tracker</h1>
+
+<div class="container">
+
+    <!-- CREATE REQUEST -->
+    <div class="card">
+        <h2>Create Maintenance Request</h2>
+
+        <label>Equipment Name</label>
+        <select id="equipment">
+            <option>CNC Machine</option>
+            <option>Printer</option>
+            <option>Laptop</option>
+            <option>Air Conditioner</option>
+        </select>
+
+        <label>Department</label>
+        <select id="department">
+            <option>Production</option>
+            <option>IT</option>
+            <option>Admin</option>
+            <option>Maintenance</option>
+        </select>
+
+        <label>Problem Subject</label>
+        <select id="subject">
+            <option>Oil Leakage</option>
+            <option>Not Powering On</option>
+            <option>Strange Noise</option>
+            <option>Routine Checkup</option>
+        </select>
+
+        <label>Request Type</label>
+        <select id="type">
+            <option>Corrective</option>
+            <option>Preventive</option>
+        </select>
+
+        <button onclick="createRequest()">Create Request</button>
+    </div>
+
+    <!-- KANBAN BOARD -->
+    <div class="board">
+        <div class="column">
+            <h3>New</h3>
+            
+            <div id="New" class="task-container"></div>
+        </div>
+        <div class="column">
+            <h3>In Progress</h3>
+            <div id="In Progress" class="task-container"></div>
+        </div>
+        <div class="column">
+            <h3>Repaired</h3>
+            <div id="Repaired" class="task-container"></div>
+        </div>
+        <div class="column">
+            <h3>Scrap</h3>
+            <div id="Scrap" class="task-container"></div>
+        </div>
+    </div>
+</div>
+
+<script src="script.js"></script>
+</body>
+</html>
